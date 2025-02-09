@@ -1,0 +1,21 @@
+.button {
+    -fx-background-color: linear-gradient(to bottom, #1E3A8A, #122B5A); /* Gradient dark blue for depth */
+    -fx-text-fill: white; /* White text for contrast */
+    -fx-font-family: "Arial";
+    -fx-font-size: 18px; /* Professional and readable */
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 4, 0, 0, 2); /* Subtle shadow for depth */
+    -fx-cursor: hand;
+    -fx-border-color: #0D47A1; /* Lighter blue border for visibility */
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px; /* Rounded corners for a polished look */
+    -fx-padding: 12px 24px;
+    -fx-transition: all 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #3B5998, #1E3A8A); /* Slightly brighter blue on hover */
+    -fx-text-fill: #E3F2FD; /* Light blue text for a soft, elegant look */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 6, 0, 0, 3); /* Enhanced shadow for emphasis */
+    -fx-border-color: #64B5F6; /* Brighter blue border on hover */
+}

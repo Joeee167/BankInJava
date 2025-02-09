@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="453.0" prefWidth="856.0" style="-fx-background-color: linear-gradient(to bottom, #e6f2ff, #b3cce6); -fx-background-image: url('https://i.ibb.co/cx9kgGL/banking-and-finance-concept-digital-connect-system-financial-and-banking-technology-with-integrated.jpg');   -fx-background-size: cover; -fx-background-position: center;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bankproject.HireEmployeeController">
+
+    <Label layoutX="52.0" layoutY="69.0" style="-fx-background-color: linear-gradient(to right, #6a0dad, #9b30ff); -fx-padding: 5 10; -fx-border-radius: 5; -fx-background-radius: 5; -fx-min-width: 120px; -fx-min-height: 30px;" text="Emp Name :" textFill="#ffffff">
+        <font>
+            <Font name="Franklin Gothic Demi Cond" size="20.0" />
+        </font>
+    </Label>
+    <TextField fx:id="EmpNumTextField" layoutX="223.0" layoutY="73.0" />
+
+
+    <Label layoutX="53.0" layoutY="113.0" minHeight="25.0" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: linear-gradient(to right, #6a0dad, #9b30ff); -fx-padding: 5 10; -fx-border-radius: 5; -fx-background-radius: 5; -fx-min-width: 120px; -fx-min-height: 30px;" text="Password :" textFill="#ffffff">
+        <font>
+            <Font name="Franklin Gothic Demi Cond" size="20.0" />
+        </font>
+    </Label>
+    <PasswordField fx:id="EmpPasswordField" layoutX="223.0" layoutY="116.0" />
+
+
+
+    <Label layoutX="53.0" layoutY="157.0" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: linear-gradient(to right, #6a0dad, #9b30ff); -fx-padding: 5 10; -fx-border-radius: 5; -fx-background-radius: 5; -fx-min-width: 120px; -fx-min-height: 30px;" text="Salary:" textFill="#ffffff">
+        <font>
+            <Font name="Franklin Gothic Demi Cond" size="20.0" />
+        </font>
+    </Label>
+    <TextField fx:id="EmpSalaryTextField" layoutX="223.0" layoutY="160.0" />
+
+    <Label layoutX="53.0" layoutY="196.0" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: linear-gradient(to right, #6a0dad, #9b30ff); -fx-padding: 5 10; -fx-border-radius: 5; -fx-background-radius: 5; -fx-min-width: 120px; -fx-min-height: 30px;" text="Branch ID:" textFill="#ffffff">
+        <font>
+            <Font name="Franklin Gothic Demi Cond" size="20.0" />
+        </font>
+    </Label>
+    <TextField fx:id="BranchIDTextField" layoutX="223.0" layoutY="199.0" />
+
+
+    <Button fx:id="Submit" layoutX="77.0" layoutY="363.0" onAction="#handleSubmitButtonAction" prefHeight="40.0" prefWidth="116.0" text="Submit" textFill="#ffffff">
+    </Button>
+
+    <Button fx:id="BackToMain" layoutX="227.0" layoutY="363.0" onAction="#handleBackToMainMenuButtonAction" text="Main Menu" textFill="#ffffff">
+
+    </Button>
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</Pane>

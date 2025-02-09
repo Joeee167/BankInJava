@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: linear-gradient(to bottom, #e6f2ff, #b3cce6); -fx-background-image: url('https://i.ibb.co/cx9kgGL/banking-and-finance-concept-digital-connect-system-financial-and-banking-technology-with-integrated.jpg'); -fx-background-size: cover; -fx-background-position: center;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bankproject.LoginScreenController">
+
+
+    <Label layoutX="50.0" layoutY="76.0" style="-fx-background-color: linear-gradient(to right, #6a0dad, #9b30ff); -fx-padding: 5 10; -fx-border-radius: 5; -fx-background-radius: 5; -fx-min-width: 120px; -fx-min-height: 30px;" text="User :" textFill="#ffffff">
+        <font>
+            <Font name="Franklin Gothic Demi Cond" size="20.0" />
+        </font>
+    </Label>
+    <TextField fx:id="UsernameField" layoutX="200" layoutY="80" style="-fx-background-color: #ffffff; -fx-border-color: #cccccc; -fx-border-radius: 5;" />
+
+    <Label layoutX="50" layoutY="130" style="-fx-background-color: linear-gradient(to right, #6a0dad, #9b30ff); -fx-padding: 5 10; -fx-border-radius: 5; -fx-background-radius: 5; -fx-min-width: 120px; -fx-min-height: 30px;" text="Password :" textFill="#ffffff">
+        <font>
+            <Font name="Franklin Gothic Demi Cond" size="20.0" />
+        </font>
+    </Label>
+    <PasswordField fx:id="PasswordField" layoutX="200" layoutY="130" style="-fx-background-color: #ffffff; -fx-border-color: #cccccc; -fx-border-radius: 5;" />
+
+    <Button layoutX="200" layoutY="200" onAction="#handleLoginButtonAction" text="Login" textFill="#ffffff">
+    </Button>
+
+    <Label fx:id="StatusLabel" layoutX="200" layoutY="170" style="-fx-font-size: 14px;" textFill="#ff0000" />
+
+</Pane>

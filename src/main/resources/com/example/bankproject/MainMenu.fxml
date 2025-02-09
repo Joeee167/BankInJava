@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="397.0" prefWidth="742.0" style="-fx-background-color: linear-gradient(to bottom, #e6f2ff, #b3cce6); -fx-background-image: url('https://i.ibb.co/cx9kgGL/banking-and-finance-concept-digital-connect-system-financial-and-banking-technology-with-integrated.jpg');   -fx-background-size: cover; -fx-background-position: center;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bankproject.MainMenuController">
+
+
+   <Button fx:id="ShowClientsButton" layoutX="20.0" layoutY="20.0" onAction="#handleShowClientsButtonAction" prefHeight="25.0" prefWidth="249.0" text="Show Clients" textFill="#ffffff">
+   </Button>
+
+   <Button fx:id="AddClientButton" layoutX="400.0" layoutY="20.0" onAction="#handleAddClientButtonAction" prefHeight="25.0" prefWidth="228.0" text="Add Client" textFill="#ffffff">
+   </Button>
+
+   <Button fx:id="FindClientButton" layoutX="20.0" layoutY="120.0" onAction="#handleFindClientButtonAction" prefHeight="25.0" prefWidth="249.0" text="Find Client" textFill="#ffffff">
+   </Button>
+
+   <Button fx:id="UpdateClientButton" layoutX="400.0" layoutY="120.0" onAction="#handleUpdateClientButtonAction" prefHeight="25.0" prefWidth="228.0" text="Update Client" textFill="#ffffff">
+   </Button>
+
+   <Button fx:id="DeleteClientButton" layoutX="20.0" layoutY="220.0" onAction="#handleDeleteClientButtonAction" prefHeight="25.0" prefWidth="249.0" text="Delete Client" textFill="#ffffff">
+   </Button>
+
+   <Button fx:id="TransactionButton" layoutX="400.0" layoutY="220.0" onAction="#handleTransactionButtonAction" prefHeight="25.0" prefWidth="228.0" text="Transactions" textFill="#ffffff">
+   </Button>
+
+   <Button fx:id="ShowEmployeesButton" layoutX="20.0" layoutY="320.0" onAction="#handleShowEmployeesButtonAction" prefHeight="25.0" prefWidth="249.0" text="Show Employees" textFill="#ffffff" />
+
+   <Button fx:id="HireEmployeeButton" layoutX="400.0" layoutY="320.0" onAction="#handleHireEmployeeButtonAction" prefHeight="25.0" prefWidth="228.0" text="Hire Employee" textFill="#ffffff" />
+
+   <Button fx:id="FireEmployeeButton" layoutX="20.0" layoutY="420.0" onAction="#handleFireEmployeeButtonAction" prefHeight="25.0" prefWidth="249.0" text="Fire Employee" textFill="#ffffff" />
+
+   <Button fx:id="TransferEmployeeButton" layoutX="400.0" layoutY="420.0" onAction="#handleTransferEmployeeButtonAction" prefHeight="25.0" prefWidth="228.0" text="Transfer Employee" textFill="#ffffff" />
+
+
+   <Button fx:id="LogOutButton" layoutX="249.0" layoutY="500.0" onAction="#handleLogoutButtonAction" text="LogOut" textFill="#ffffff">
+   </Button>
+
+</Pane>

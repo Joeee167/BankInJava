@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="453.0" prefWidth="856.0" style="-fx-background-color: linear-gradient(to bottom, #e6f2ff, #b3cce6); -fx-background-image: url('https://i.ibb.co/cx9kgGL/banking-and-finance-concept-digital-connect-system-financial-and-banking-technology-with-integrated.jpg');   -fx-background-size: cover; -fx-background-position: center;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bankproject.TransactionsController">
+
+    <Label layoutX="59.0" layoutY="145.0" style="-fx-background-color: linear-gradient(to right, #6a0dad, #9b30ff); -fx-padding: 5 10; -fx-border-radius: 5; -fx-background-radius: 5; -fx-min-width: 120px; -fx-min-height: 30px;" text="Amount :" textFill="#ffffff">
+        <font>
+            <Font name="Franklin Gothic Demi Cond" size="20.0" />
+        </font>
+    </Label>
+    <TextField fx:id="AmountTextField" layoutX="219.0" layoutY="149.0" />
+
+   <CheckBox fx:id="DebitCardCheckBox" layoutX="59.0" layoutY="200.0" text="Debit Card" style="-fx-background-color: linear-gradient(to right, #6a0dad, #9b30ff); -fx-padding: 5 10; -fx-border-radius: 5; -fx-background-radius: 5; -fx-min-width: 120px; -fx-min-height: 30px;" textFill="#ffffff" />
+    <CheckBox fx:id="SavingsAccountCheckBox" layoutX="250.0" layoutY="200.0" text="Savings Account" style="-fx-background-color: linear-gradient(to right, #6a0dad, #9b30ff); -fx-padding: 5 10; -fx-border-radius: 5; -fx-background-radius: 5; -fx-min-width: 120px; -fx-min-height: 30px;" textFill="#ffffff" />
+
+    <Button fx:id="Depositbt" layoutX="59.0" layoutY="307.0" prefHeight="34.0" prefWidth="169.0" text="Deposit" textFill="#ffffff" onAction="#handleDepositButtonAction" />
+    <Button fx:id="Withdrawbt" layoutX="250.0" layoutY="307.0" prefHeight="34.0" prefWidth="196.0" text="Withdraw" textFill="#ffffff" onAction="#handleWithdrawButtonAction" />
+
+    <Button fx:id="BackToMain" layoutX="162.0" layoutY="373.0" onAction="#handleBackToMainMenuButtonAction" prefHeight="34.0" prefWidth="196.0" text="Main Menu" textFill="#ffffff" />
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</Pane>
